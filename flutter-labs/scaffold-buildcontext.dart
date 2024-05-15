@@ -11,10 +11,12 @@ class MyApp extends StatelessWidget {
 
    @override
    Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Center(
-        child: Text('Hello World')
+    return const Scaffold(
+      backgroundColor: Colors.pink,
+      body: Center(
+        child: Text('HomeScreen')
       ) //Center
-    ); // MaterialApp
+    ); // Scaffold
+      
    }
 }
